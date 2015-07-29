@@ -4,7 +4,7 @@
   "description": "A Slack bot for playing Minecraft",
   "main": "index.js",
   "scripts": {
-    "start": "slackcraft index.js"
+    "start": "node index.js"
   },
   "dependencies": {
     "express": "^4.0.0"
