@@ -21,7 +21,7 @@ app.get('/', function(request, response) {
 * It doesn't distinguish between different types of errors, but it probably should.
 */
 app.post('/commands', function(request, response){
-  response.send("Now you're thinking with portals!");
+  response.send(buildResponse("Now you're thinking with portals!"));
 })
 
 app.listen(app.get('port'), function() {
