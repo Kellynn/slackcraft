@@ -1,0 +1,6 @@
+{
+  "name": "Slackcraft",
+  "description": "A slack bot for playing Minecraft",
+  "repository": "https://github.com/kellynn/slackcraft",
+  "keywords": ["node", "express", "static", "minecraft", "slack"]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Slackcraft",
+  "version": "0.1.0",
+  "description": "A Slack bot for playing Minecraft",
+  "main": "index.js",
+  "scripts": {
+    "start": "slackcraft index.js"
+  },
+  "dependencies": {
+    "express": "^4.0.0",
+    "body-parser": "*",
+    "request": "*",
+    "redis": ">= 0.10.3",
+    "q": "^1.0.1"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kellynn/slackcraft"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "author": "Kelly Wilson",
+  "license": "MIT",
+  "devDependencies": {
+    "q": "^1.0.1"
+  }
+}
