@@ -23,7 +23,7 @@ app.get('/', function(request, response) {
 app.post('/commands', function(request, response){
   var commands = request.body.text.toLowerCase().split(" ");
 
-  response.send(buildResponse("Now you're thinking with portals!"));
+  response.send("Now you're thinking with portals!");
 })
 
 app.listen(app.get('port'), function() {
@@ -38,7 +38,7 @@ app.listen(app.get('port'), function() {
 function buildResponse(text) {
   var json = {
     "text": text,
-    "username": "Craft Bot"
+    "username": "CraftBot"
   }
   return JSON.stringify(json);
 }
