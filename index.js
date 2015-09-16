@@ -20,9 +20,9 @@ app.get('/', function(request, response) {
 * All error handling is bubbled up to this function and handled here.
 * It doesn't distinguish between different types of errors, but it probably should.
 */
-app.post('/commands', function(request, response){
-  response.send(buildResponse("Now you're thinking with portals!"));
-})
+// app.post('/commands', function(request, response){
+//   response.send(buildResponse("Now you're thinking with portals!"));
+// })
 
 app.listen(app.get('port'), function() {
   console.log("Node app is running at localhost:" + app.get('port'))
